@@ -60,8 +60,12 @@ class Car(EngineCondition, EngineOil, TiresWheelsCondition):
 
 
 def execute_application():
-    pass
 
+    engine = DieselEngine()
+    car = Car("Mersedes", 2020, "black")
+    car.get_state(engine)
+    engine.state = True
+    car.get_state(engine)
 
 
 if __name__ =="__main__":
