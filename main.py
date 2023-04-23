@@ -32,18 +32,24 @@ class DieselEngine(Engine):
     pass
 
 
-# Класс миксин
+# Класс миксин Состояние двиагателя
 class EngineCondition:
     @staticmethod
     def get_state(engine: Engine):
         print(engine.print())
 
+# миксин наличие масла в двигателе
+class EngineOil:
+    @staticmethod
+    def show_oil_engine(engine: Engine):
+        print(engine.oil_print())
 
 
 
 
 
 def execute_application():
+    pass
 
 
 
