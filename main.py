@@ -32,6 +32,13 @@ class DieselEngine(Engine):
     pass
 
 
+# Класс миксин
+class EngineCondition:
+    @staticmethod
+    def get_state(engine: Engine):
+        print(engine.print())
+
+
 
 
 
