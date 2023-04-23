@@ -25,6 +25,11 @@ class Engine:
         return "Масло в двигателе в пределах нормы" if self.__oil else "Масло не в пределах нормы"
 
 
+class GasEngine(Engine):
+    pass
+
+
+
 
 
 
