@@ -28,6 +28,9 @@ class Engine:
 class GasEngine(Engine):
     pass
 
+class DieselEngine(Engine):
+    pass
+
 
 
 
