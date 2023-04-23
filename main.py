@@ -67,6 +67,10 @@ def execute_application():
     engine.state = True
     car.get_state(engine)
 
+    car.show_oil_engine(engine)
+    engine.oil = True
+    car.show_oil_engine(engine)
+
 
 if __name__ =="__main__":
     execute_application()
