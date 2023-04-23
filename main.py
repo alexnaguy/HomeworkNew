@@ -18,12 +18,13 @@ class Engine:
     @oil.setter
     def oil(self, oil: bool):
         self.__oil = oil
-
     def print(self):
         return "Двигатель заведен" if self.__state else "Двигатель не заведен"
 
     def oil_print(self):
         return "Масло в двигателе в пределах нормы" if self.__oil else "Масло не в пределах нормы"
+
+
 
 
 
