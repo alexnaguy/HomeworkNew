@@ -48,6 +48,17 @@ class EngineOil:
 
 
 
+class Car(EngineCondition, EngineOil, TiresWheelsCondition):
+    def __init__(self, brand: str, year: int, color: str):
+        self.__brand = brand
+        self.__year = year
+        self.__color = color
+
+    def __str__(self):
+        return f"Марка: {self.__brand} год: {self.__year} цвет: {self.__color}"
+
+
+
 def execute_application():
     pass
 
